@@ -1,0 +1,363 @@
+/*GLOBAL*/
+html {
+	scroll-behavior: smooth;
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font: normal 500 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #111;
+}
+
+/*BANNER*/
+#banner {
+	background-image: url("images/bg.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*MENU*/
+#menu-nav {
+	max-width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/*NAVBAR*/
+#navbar {
+	position: relative;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li {
+	display: inline;
+}
+
+#navbar a {
+	display: inline-block;
+	padding: 10px;
+	padding-right: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#navbar a:hover {
+	color: #18d26e;
+}
+
+/*POPULAR PLACES*/
+#popular-places {
+	padding: 20px;
+	text-align: center;
+}
+
+/*SECTION HEADING*/
+.section-header h3 {
+	font-size: 32px;
+	color: #18d26e;
+	text-align: center;
+	font-weight: 700;
+	padding-bottom: 15px;
+}
+
+/*CARD CONTAINER*/
+.conatiner {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+/*CARD*/
+.card {
+	width: 25%;
+	height: 50%;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+/*CARD TEXT*/
+h1 {
+	font-size: 20px;
+	padding-left: 10px;
+	float: left;
+}
+
+/*BUTTON*/
+button {
+	float: right;
+	margin-bottom: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+a button {
+	text-decoration: none;
+	color: black;
+}
+
+a button:hover {
+	background-color: #18d26e;
+	color: white;
+	border-color: #18d26e;
+	transition: .5s;
+	cursor: pointer;
+}
+
+/*ABOUT PAGE*/
+#about-banner {
+	background-image: url("images/about-bg.jpg");
+	height: 35%;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-blend-mode: darken;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-header {
+	padding: 20px;
+	text-align: center;
+}
+
+.about-title h1 {
+	margin-left: 40%;
+	margin-top: 7%;
+	font-size: 40px;
+	color: #18d26e;
+	text-align: center;
+	font-weight: 700;
+	padding-bottom: 15px;
+}
+
+/*ABOUT TEXT*/
+#about-text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	color: dimgrey;
+	font-family: Roboto;
+	font-size: 18px;
+}
+
+.column1 {
+	float: left;
+	width: 47%;
+	padding: 10px;
+	text-align: justify;
+}
+
+.column2 {
+	float: right;
+	width: 47%;
+	padding: 10px;
+	text-align: justify;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*INFO PAGE*/
+#info-banner {
+	background-image: url("images/img4.jpg");
+	height: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+#icon {
+	float: left;
+	font-size: 24px;
+	margin-left: 25px;
+	padding-top: 4px;
+}
+
+#place {
+	margin-top: 0;
+	margin-left: 30px;
+	padding-left: 20px;
+	font-size: 28px;
+}
+
+#info-text {
+	padding-bottom: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	color: dimgrey;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: justify;
+}
+
+/*CONATCT FORM*/
+.contact-us {
+	width: 250px;
+	background: #fff;
+	padding: 50px;
+	margin: 100px auto;
+	border-radius: 30px;
+	position: relative;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.form-title h1 {
+	color: #18d26e;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+}
+
+.form,
+.form-items {
+	width: 100%;
+}
+
+.form-items .input {
+	width: 100%;
+	margin-bottom: 12px;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	background: #ebeef1;
+	border: 0px;
+	outline: none;
+	border-radius: 30px;
+	font-family: Montserrat;
+}
+
+.form-items .input.message {
+	height: 125px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	padding: 15px 15px;
+}
+
+.btn {
+	background: #18d26e;
+	text-align: center;
+	color: #fff;
+	padding: 12px;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.btn .fas {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.form-items {
+	position: relative;
+}
+
+.form-items .fas {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: #9a99aa;
+}
+
+#user {
+	position: absolute;
+	top: 76px;
+	left: 16px;
+	color: #9a99aa;
+}
+
+.social-icons {
+	position: absolute;
+	bottom: -25px;
+	left: 50%;
+	width: 200px;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-around;
+}
+
+.social-icons div {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.social-icons div:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.social-icons div .fab {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.social-icons div.instagram {
+	background: #FD1D1D;
+	font-size: 30px;
+}
+
+.social-icons div.twitter {
+	background: #41caf6;
+	font-size: 26px;
+}
+
+.social-icons div.linkedin {
+	background: #0077B5;
+	font-size: 26px;
+}
+
+/*FOOTER*/
+footer {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer h3 {
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+
+footer span {
+	color: #18d26e;
+	cursor: pointer;
+}
