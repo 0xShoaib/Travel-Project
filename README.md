@@ -2,7 +2,7 @@
 
 [Live Demo](https://travel-diary.netlify.app/index.html)
 
-This is my first project. I have created this this project when I started learning web development. I have used the basics of HTML and CSS to create this project. The purpose of this project is to practice what I have learned.
+This is my first project. I have used the basics of HTML and CSS to create this project. The purpose of this project is to practice what I have learned.
 
 Learning Key Points - 
 
